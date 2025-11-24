@@ -1,6 +1,6 @@
-let a = 5;
-let b = 5;
-console.log(`a = ${a} b = ${b}`);
+// let a = 5;
+// let b = 5;
+// console.log(`a = ${a} b = ${b}`);
 
 // Arthematic
 
@@ -45,32 +45,32 @@ console.log(`a = ${a} b = ${b}`);
 // }
 
 // Practice Q2
-let score = prompt("Enter Your Score");
-if (score<0 || score>100) {
-  console.log('Please Enter a positive Score or less than 100');
-}
-if (score<=100 && score>=90) {
-  console.log('A+');
+// let score = prompt("Enter Your Score");
+// if (score<0 || score>100) {
+//   console.log('Please Enter a positive Score or less than 100');
+// }
+// if (score<=100 && score>=90) {
+//   console.log('A+');
   
-} 
-else if(score<=89 && score>=81) {
-  console.log('A');
-}
-else if(score<=80 && score>=71) {
-  console.log('B+');
-}
-else if(score<=70 && score>=61) {
-  console.log('B');
-}
-else if(score<=60 && score>=51) {
-  console.log('C+');
-}
-else if(score<=50 && score>=41) {
-  console.log('C');
-}
-else if(score<=40 && score>=31) {
-  console.log('D');
-}
-else if(score<=30 && score>=0){
-  console.log('F');
-}
+// } 
+// else if(score<=89 && score>=81) {
+//   console.log('A');
+// }
+// else if(score<=80 && score>=71) {
+//   console.log('B+');
+// }
+// else if(score<=70 && score>=61) {
+//   console.log('B');
+// }
+// else if(score<=60 && score>=51) {
+//   console.log('C+');
+// }
+// else if(score<=50 && score>=41) {
+//   console.log('C');
+// }
+// else if(score<=40 && score>=31) {
+//   console.log('D');
+// }
+// else if(score<=30 && score>=0){
+//   console.log('F');
+// }
