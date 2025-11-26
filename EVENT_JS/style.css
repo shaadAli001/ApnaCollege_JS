@@ -3,3 +3,11 @@ div {
   width: 100px;
   background-color: bisque;
 }
+.dark{
+  background-color: black;
+  color: white;
+}
+.light{
+  background-color: white;
+  color: black;
+}
