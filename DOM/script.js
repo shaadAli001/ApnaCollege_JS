@@ -39,3 +39,7 @@ btn.style.color = "white";
 
 body.append(btn);
 
+let para = document.createElement("p");
+para.innerText = "Hello";
+para.classList.add("para")
+body.append(para);
