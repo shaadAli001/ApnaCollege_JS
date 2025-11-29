@@ -36,29 +36,63 @@
 // console.log(Etios);
 
 // inheritence
-class person {
-  constructor(name) {
-    this.species = "Homo Sapiens";
-    this.name = name;
-  }
-  eat() {
-    console.log("Eat");
-  }
-  sleep() {
-    console.log("Sleep");
-  }
-}
+// class person {
+//   constructor(name) {
+//     this.species = "Homo Sapiens";
+//     this.name = name;
+//   }
+//   eat() {
+//     console.log("Eat");
+//   }
+//   sleep() {
+//     console.log("Sleep");
+//   }
+// }
 
-class Engineer extends person {
-  constructor(name) {
-    super(name);
-  }
-  work() {
-    super.eat(
-      
-    )
-    console.log("problem solving using S&T");
-  }
-}
+// class Engineer extends person {
+//   constructor(name) {
+//     super(name);
+//   }
+//   work() {
+//     super.eat(
 
-let Eng = new Engineer("John");
+//     )
+//     console.log("problem solving using S&T");
+//   }
+// }
+
+// let Eng = new Engineer("John");
+
+// Q1
+// class User {
+//   constructor(name, email) {
+//     this.name = name;
+//     this.email = email;
+//   }
+//   viewData() {
+//     console.log("My Data");
+//   }
+// }
+// class admin extends User {
+//   constructor(name, email) {
+//     super(name, email);
+//   }
+//   editData() {
+//     console.log("edit Data");
+//   }
+// }
+// let admin_1 = new admin("admin", "admin@gmail.com");
+// console.log(admin_1.editData());
+
+// let student1 = new User("rohan", "rohan@gmail.com");
+// let Teacher = new User("Shilpa", "shilpa@gmail.com");
+
+// Error Handling
+// let a = 5;
+// let b = 5;
+// try {
+//   console.log(`a + b = ${a + b}`);
+//   console.log(`a + b = ${a + c}`);
+// } catch (error) {
+//   console.log(error);
+// }
