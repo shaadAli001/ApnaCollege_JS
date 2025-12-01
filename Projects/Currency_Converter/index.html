@@ -3,9 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Currency Converter</title>
   </head>
   <body>
+    <div class="container">
+      <h2>Currency Converter</h2>
+      <form>
+        <div class="amount">
+          <p>Enter Amount</p>
+          <input type="text" value="1" />
+        </div>
+
+        <div class="dropdown">
+          <div class="from">
+            <p>From</p>
+            <div class="select_container">
+              <img src="https://flagsapi.com/US/flat/64.png" alt="FLAG" />
+              <select name="from"></select>
+            </div>
+          </div>
+
+          <i class="fa-solid fa-left-right"></i>
+
+          <div class="to">
+            <p>TO</p>
+            <div class="select_container">
+              <img src="https://flagsapi.com/IN/flat/64.png" alt="FLAG" />
+              <select name="to"></select>
+            </div>
+          </div>
+        </div>
+        <div class="msg">1 USD = 90 INR</div>
+        <button>Get Exchange Rate</button>
+      </form>
+    </div>
+
     <script src="./country_code.js"></script>
     <script src="./script.js"></script>
     <script
@@ -14,3 +47,5 @@
     ></script>
   </body>
 </html>
+
+<!-- https://v6.exchangerate-api.com/v6/30751a969334a2851884d880/pair/EUR/INR -->
